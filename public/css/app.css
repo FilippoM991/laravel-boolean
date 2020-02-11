@@ -10896,7 +10896,7 @@ a.text-dark:focus {
 }
 
 .my_nav img {
-  height: 80%;
+  width: 200px;
 }
 
 .my_nav li {
@@ -10906,6 +10906,7 @@ a.text-dark:focus {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
+  border-bottom: 2px solid transparent;
 }
 
 .my_nav li:hover {

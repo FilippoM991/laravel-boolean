@@ -1,5 +1,6 @@
 <nav class=" my_nav navbar fixed-top navbar-light bg-light">
-    <img src="https://www.boolean.careers/images/common/logo.png" alt="">
+    <a href="{{ route('homepage')}}"><img src="https://www.boolean.careers/images/common/logo.png" alt=""></a>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
