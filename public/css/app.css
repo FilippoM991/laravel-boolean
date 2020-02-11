@@ -10884,3 +10884,141 @@ a.text-dark:focus {
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.my_nav {
+  height: 90px;
+}
+
+.my_nav img {
+  height: 80%;
+}
+
+.my_nav li {
+  margin: 0 5px;
+  padding: 0 20px;
+  height: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.my_nav li:hover {
+  border-bottom: 2px solid #61ce4e;
+}
+
+.my_nav li a {
+  color: #1B3C59;
+}
+
+.my_nav .my_iscrizione {
+  max-height: 40px;
+  background: #61ce4e;
+  margin: 0 0 0 40px;
+  padding: 0 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border-bottom: none;
+}
+
+.my_nav .my_iscrizione:hover {
+  opacity: 0.8;
+}
+
+.my_nav .my_iscrizione a.nav-link {
+  color: white;
+}
+
+.my_nav .my_iscrizione a.nav-link:hover {
+  color: white;
+}
+
+#my-jumbo {
+  padding-top: 180px;
+  padding-bottom: 90px;
+  color: #1B3C59;
+}
+
+#my-jumbo h1 {
+  font-size: 70px;
+}
+
+#my-jumbo p {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#my-jumbo li {
+  font-size: 18px;
+}
+
+#my-jumbo #contenitore-img {
+  text-align: center;
+}
+
+#my-jumbo #contenitore-img img {
+  max-width: 90%;
+  transform: translateY(60%);
+}
+
+footer {
+  background-color: #1B3C59;
+  color: white;
+  padding: 70px 0 30px;
+  height: 400px;
+}
+
+.footer-top .container {
+  border-bottom: 1px solid white;
+}
+
+.footer-top .container #logo img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.footer-top .container #altre-pagine ul {
+  list-style-type: none;
+}
+
+.footer-top .container #altre-pagine ul li {
+  font-size: 18px;
+  padding-bottom: 2px;
+}
+
+.footer-top .container #altre-pagine ul li a {
+  color: white;
+}
+
+.footer-top .container #altre-pagine ul li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.footer-bottom .social {
+  padding-bottom: 20px;
+}
+
+.footer-bottom .social a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+.footer-bottom .social a i {
+  font-size: 40px;
+  color: white;
+}
+
+.footer-bottom .social a i:hover {
+  color: #61ce4e;
+}
+

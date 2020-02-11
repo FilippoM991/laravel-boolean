@@ -1,0 +1,47 @@
+footer{
+    background-color: $primaryColorText;
+    color: white;
+    padding: 70px 0 30px;
+    height: 400px;
+}
+.footer-top {
+    .container{
+        border-bottom: 1px solid white;
+        #logo img {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        #altre-pagine ul{
+            list-style-type: none;
+            li{
+                font-size: 18px;
+                padding-bottom: 2px;
+                a {
+                    color: white;
+                    &:hover{
+                        border-bottom: 1px solid white;
+                    }
+                }
+            }
+        }
+    }
+
+}
+.footer-bottom{
+    text-align: center;
+    padding-top: 40px;
+    .social {
+        padding-bottom: 20px;
+        a{
+        text-decoration: none;
+        padding: 20px;
+        i{
+            font-size: 40px;
+            color: white;
+            &:hover {
+                color: $secondaryColorText;
+            }
+        }
+    }
+}
+    }

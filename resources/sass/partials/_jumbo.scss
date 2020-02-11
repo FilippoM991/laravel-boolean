@@ -1,0 +1,22 @@
+#my-jumbo{
+    padding-top: 180px;
+    padding-bottom: 90px;
+    color: $primaryColorText;
+    h1{
+        font-size: 70px;
+    }
+    p{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    li{
+        font-size: 18px;
+    }
+    #contenitore-img{
+        text-align: center;
+        img{
+            max-width: 90%;
+            transform: translateY(60%);
+        }
+    }
+}
