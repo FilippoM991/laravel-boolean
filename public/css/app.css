@@ -10913,6 +10913,10 @@ a.text-dark:focus {
   border-bottom: 2px solid #61ce4e;
 }
 
+.my_nav li.active {
+  border-bottom: 2px solid #61ce4e;
+}
+
 .my_nav li a {
   color: #1B3C59;
 }
@@ -10967,6 +10971,54 @@ a.text-dark:focus {
   transform: translateY(60%);
 }
 
+.titoloFq {
+  padding-top: 180px;
+  padding-bottom: 50px;
+  color: #1B3C59;
+}
+
+.primaCorso,
+.dopoCorso {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.primaCorso h2,
+.dopoCorso h2 {
+  padding: 0 50px;
+  margin: 40px 0;
+}
+
+.primaCorso {
+  background-color: #e8ebf1;
+}
+
+.dopoCorso {
+  background-color: #1B3C59;
+  color: white;
+}
+
+.faq {
+  padding: 0 50px;
+  margin: 40px 0;
+  position: relative;
+}
+
+.faq p {
+  display: none;
+}
+
+.faq i {
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.faq i:hover {
+  cursor: pointer;
+}
+
 footer {
   background-color: #1B3C59;
   color: white;
@@ -10994,10 +11046,6 @@ footer {
 
 .footer-top .container #altre-pagine ul li a {
   color: white;
-}
-
-.footer-top .container #altre-pagine ul li a:hover {
-  border-bottom: 1px solid white;
 }
 
 .footer-bottom {

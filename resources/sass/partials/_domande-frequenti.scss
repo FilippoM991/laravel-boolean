@@ -1,0 +1,37 @@
+.titoloFq{
+    padding-top: 180px;
+    padding-bottom: 50px;
+    color: $primaryColorText;
+}
+.primaCorso, .dopoCorso{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h2 {
+        padding: 0 50px;
+        margin:40px 0;
+    }
+}
+.primaCorso{
+    background-color: #e8ebf1;
+}
+.dopoCorso{
+    background-color: $primaryColorText;
+    color: white;
+}
+.faq {
+    padding: 0 50px;
+    margin:40px 0;
+    position: relative;
+    p {
+        display: none;
+    }
+    i{
+        font-size: 20px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

@@ -7,11 +7,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item {{ Route::CurrentRouteName() === 'homepage' ? 'active': ''}}">
+            <a class="nav-link " href="{{route('homepage')}}">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Corso</a>
+          <li class="nav-item {{ Route::CurrentRouteName() === 'corso' ? 'active': ''}}">
+            <a class="nav-link " href="{{route('corso')}}">Corso</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Dopo il corso</a>
